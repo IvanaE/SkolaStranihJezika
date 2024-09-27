@@ -1,0 +1,141 @@
+@import "./colors.scss";
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+) !default;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0 !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+
+#root {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font: normal 1em 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: $dark;
+}
+
+nav {
+  &.navbar {
+    height: 100px;
+  }
+
+  a.navbar-brand {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+.search-form {
+  padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  height: 129px;
+
+  .react-datepicker-wrapper {
+    width: 100%;
+
+    .react-datepicker__input-container {
+      input {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        line-height: 1;
+        font-size: 14px;
+        padding: 23.4px 23px;
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        width: 100%;
+        font-weight: 400;
+        color: #757575;
+      }
+    }
+  }
+
+  .react-select__control {
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 13px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #757575;
+    font-weight: 400;
+
+    .react-select__single-value {
+      color: #757575;
+    }
+  }
+
+  .btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-size: 14px;
+    padding: 23.4px 40px;
+    font-weight: 400;
+  }
+}
+
+.nastavnik-thumbnail {
+  .nastavnik-thumbnail-picture {
+    height: 370px;
+    z-index: 5;
+  }
+
+  .nastavnik-thumbnail-content {
+    text-align: center;
+    background-color: $dark;
+    padding: 12px 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 3;
+
+    h4 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+}
+
+.screen {
+  padding: 6px;
+}

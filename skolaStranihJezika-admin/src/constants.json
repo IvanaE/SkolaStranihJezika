@@ -1,0 +1,264 @@
+{
+  "footer": {
+    "title": "Ivana Elez"
+  },
+  "navigation": {
+    "title": "Škola stranih jezika",
+    "titleSide": "Škola stranih jezika admin",
+    "main": "Glavni meni",
+    "filijale": "Filijale",
+    "nastavnici": "Nastavnici",
+    "termini": "Termini",
+    "add": {
+      "user": "Dodaj korisnika",
+      "filijala": "Dodaj filijalu",
+      "cas": "Dodaj čas",
+      "nivo": "Dodaj nivo",
+      "nastavnik": "Dodaj nastavnika",
+      "termin": "Dodaj termin"
+    },
+    "list": {
+      "user": "Prikaz korisnika",
+      "filijala": "Prikaz filijala",
+      "cas": "Prikaz časova",
+      "nivo": "Prikaz nivoa",
+      "nastavnik": "Prikaz nastavnika",
+      "termin": "Prikaz termina",
+      "reservations": "Prikaz rezervacija"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon: ",
+    "number": "Broj nastavnika: "
+  },
+  "home": {
+    "select": "Odaberite...",
+    "search": "Pretraga",
+    "error": {
+      "title": "Greska",
+      "notFound": "Nije pronadjena ni jedan odgovarajuci nastavnik.",
+      "404": "404 - Stranica nije pronadjena.",
+      "cred": "Doslo je do greske. Proverite parametre."
+    },
+    "info": {
+      "title": "Obavestenje"
+    },
+    "submitAdd": "Dodaj",
+    "cancel": "Otkazi",
+    "delete": "Obrisi",
+    "update": "Azuriraj",
+    "confirm": "Potvrdi",
+    "print": "Stampaj",
+    "idSeparator": "-"
+  },
+  "reservation": {
+    "modalTitle": "Pregled rezervacije",
+    "form": {
+      "processing": "Slanje...",
+      "success": "Uspešna rezervacija. Uskoro Vam stiže email sa potvrdom.",
+      "return": "Povratak na početnu stranicu",
+      "fullName": "Ime i prezime",
+      "fname": "Ime",
+      "lname": "Prezime",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa",
+      "price": "Cena",
+      "submit": "Rezerviši",
+      "nivo": "Opis trenutnog nivoa znanja",
+      "napomena": "Sta želite da unapredite?"
+    },
+    "info": {
+      "delSucc": "Rezervacija uspesno otkazana.",
+      "delErr": "Greska pri otkazivanju rezervacije.",
+      "fetchErr": "Greska pri ucitavanju rezervacija.",
+      "addSucc": "Rezervacija uspesno potvrdjena.",
+      "addErr": "Greska pri potvrdi rezervacije."
+    },
+    "for": "Rezervacija za",
+    "loading": "Učitavanje...",
+    "nastavnik": "Nastavnik",
+    "nivo": "Dostupni nivoi",
+    "choose": "Odaberite termin za rezervaciju nastavnika ",
+    "date": "Rezervisano",
+    "termin": "Termin",
+    "id": "reservation"
+  },
+  "filijala": {
+    "name": "Ime",
+    "city": "Grad",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "info": {
+      "fetchErrFil": "Greska pri ucitavanju filijala.",
+      "addSucc": "Filijala uspesno dodana.",
+      "addErr": "Doslo je do greske. Proverite polja i pokusajte ponovo",
+      "delSucc": "Filijala uspesno obrisana.",
+      "delErr": "Greska u brisanju filijale",
+      "updateSucc": "Filijala uspesno izmenjena.",
+      "updateErr": "Greska pri azuriranju filijale. Proverite vrednosti polja."
+    },
+    "id": "filijala"
+  },
+  "nastavnik": {
+    "name": "Ime",
+    "about": "O nastavniku",
+    "sertifikati": "Sertifikati",
+    "picture": "URL Slike",
+    "pic": "Slika",
+    "price": "Cena časa",
+    "nivoi": "Nivoi",
+    "filijala": "Filijala",
+    "info": {
+      "fetchErrLvl": "Greska pri ucitavanju nivoa.",
+      "fetchErrFil": "Greska pri ucitavanju filijala.",
+      "fetchErrNas": "Greska pri ucitavanju nastavnika.",
+      "addSucc": "Nastavnik uspesno dodat.",
+      "addErr": "Greska pri dodavanju nastavnika. Proverite vrednosti polja.",
+      "delSucc": "Nastavnik uspesno obrisan.",
+      "delErr": "Greska u brisanju nastavnika",
+      "updateSucc": "Nastavnik uspesno izmenjen.",
+      "updateErr": "Greska pri azuriranju nastavnika. Proverite vrednosti polja."
+    },
+    "id": "nastavnik"
+  },
+  "nivo": {
+    "ime": "Ime",
+    "info": {
+      "addSucc": "Nivo uspesno dodat.",
+      "addErr": "Greska pri dodavanju nivoa. Proverite vrednosti polja.",
+      "fetchErr": "Greska pri ucitavanju nivoa.",
+      "delSucc": "Nivo uspesno obrisan.",
+      "delErr": "Greska pri brisanju nivoa.",
+      "updateSucc": "Nivo uspesno izmenjen.",
+      "updateErr": "Greska pri azuriranju nivoa. Proverite vrednosti polja."
+    },
+    "id": "nivo"
+  },
+  "termin": {
+    "info": {
+      "fetchErr": "Greska pri ucitavanju nastavnika.",
+      "addSucc": "Termin uspesno dodat.",
+      "addErr": "Greska pri dodavanju termina. Proverite vrednosti polja.",
+      "delSucc": "Termin uspesno obrisan.",
+      "delErr": "Greska pri brisanju termina.",
+      "updateSucc": "Termin uspesno izmenjen.",
+      "updateErr": "Greska pri azuriranju termina. Proverite vrednosti polja.",
+      "fetchErrTer": "Greska pri ucitavanju termina."
+    },
+    "nastavnik": "Nastavnik",
+    "datum": "Datum",
+    "repeat": "Broj ponavljanja u narednim danima",
+    "id": "termin"
+  },
+  "user": {
+    "info": {
+      "addSucc": "Korisnik uspesno dodat.",
+      "addErr": "Greska pri dodavanju korisnika. Proverite vrednosti polja.",
+      "delSucc": "Korisnik uspesno obrisan.",
+      "delErr": "Greska pri brisanju korisnika.",
+      "updateSucc": "Korisnik uspesno izmenjen.",
+      "updateErr": "Greska pri azuriranju korisnika. Proverite vrednosti polja.",
+      "passMatchErr": "Sifre se ne poklapaju",
+      "fetchErr": "Greska pri ucitavanju filijala.",
+      "fetchErrUser": "Greska pri ucitavanju korisnika."
+    },
+    "fName": "Ime",
+    "lName": "Prezime",
+    "name": "Ime i prezime",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "email": "Email",
+    "username": "Korisnicko ime",
+    "filijala": "Filijala",
+    "role": "Uloga",
+    "password": "Sifra",
+    "password2": "Ponovljena sifra",
+    "id": "user"
+  },
+  "cas": {
+    "modalTitle": "Informacije o času",
+    "info": {
+      "fetchErr": "Greska pri ucitavanju časa.",
+      "delSucc": "Čas uspesno obrisan.",
+      "delErr": "Greska pri brisanju časa.",
+      "updateSucc": "Čas uspesno izmenjen",
+      "updateErr": "Greska pri izmeni časa"
+    },
+    "user": "Korisnik",
+    "note": "Komentar",
+    "status": "Status",
+    "vehicle": "Vozilo",
+    "id": "cas"
+  },
+  "language": {
+    "title": "Jezik",
+    "rs": "Srpski",
+    "rsId": "rs",
+    "eng": "Engleski",
+    "engId": "eng"
+  },
+  "signin": {
+    "title": "Ulogujte se",
+    "username": "Korisnicko ime",
+    "password": "Sifra"
+  },
+  "path": {
+    "root": "/",
+    "contact": {
+      "root": "/contact"
+    },
+    "home": {
+      "root": "/homepage"
+    },
+    "details": {
+      "root": "/details"
+    },
+    "reservation": {
+      "root": "/rezervacije"
+    },
+    "login": {
+      "root": "/login"
+    },
+    "list": {
+      "reservations": "/list-reservations",
+      "users": "/list-users",
+      "termin": "/list-termin",
+      "filijale": "/list-filijale",
+      "cas": "/list-casovi",
+      "nastavnici": "/list-nastavnici",
+      "nivoi": "/list-nivoi"
+    },
+    "add": {
+      "reservations": "/add-reservation",
+      "users": "/add-user",
+      "termin": "/add-termin",
+      "filijale": "/add-filijala",
+      "cas": "/add-cas",
+      "nastavnici": "/add-nastavnik",
+      "nivoi": "/add-nivo"
+    },
+    "params": {
+      "id": "/:id",
+      "terminId": "/:terminId"
+    },
+    "api": {
+      "baseURL": "http://localhost:8080/api/",
+      "reservations": "rezervacije",
+      "rezNew": "/new",
+      "filijale": "filijale",
+      "nastavnici": "nastavnici",
+      "nastavniciFilijale": "/f/",
+      "nivoi": "nivoi",
+      "termini": "termini",
+      "users": "users",
+      "casovi": "casovi",
+      "auth": {
+        "root": "auth/",
+        "signin": "signin",
+        "signup": "signup"
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "footer": {
+    "title": "Ivana Elez"
+  },
+  "navigation": {
+    "title": "School of Foreign Languages",
+    "titleSide": "School of Foreign Languages Admin",
+    "main": "Main Menu",
+    "filijale": "Branches",
+    "nastavnici": "Teachers",
+    "termini": "Terms",
+    "add": {
+      "user": "Add User",
+      "filijala": "Add Branch",
+      "cas": "Add Class",
+      "nivo": "Add Level",
+      "nastavnik": "Add Teacher",
+      "termin": "Add Term"
+    },
+    "list": {
+      "user": "Show Users",
+      "filijala": "Show Branches",
+      "cas": "Show Classes",
+      "nivo": "Show Levels",
+      "nastavnik": "Show Teachers",
+      "termin": "Show Terms",
+      "reservations": "Show Reservations"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone: ",
+    "number": "Number of Teachers: "
+  },
+  "home": {
+    "select": "Select...",
+    "search": "Search",
+    "error": {
+      "title": "Error",
+      "notFound": "No matching teacher found.",
+      "404": "404 - Page not found.",
+      "cred": "An error occurred. Please check the parameters."
+    },
+    "info": {
+      "title": "Notification"
+    },
+    "submitAdd": "Add",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "update": "Update",
+    "confirm": "Confirm",
+    "print": "Print",
+    "idSeparator": "-"
+  },
+  "reservation": {
+    "modalTitle": "Reservation Overview",
+    "form": {
+      "processing": "Sending...",
+      "success": "Successful reservation. You will receive a confirmation email soon.",
+      "return": "Return to the homepage",
+      "fullName": "Full Name",
+      "fname": "First Name",
+      "lname": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "price": "Price",
+      "submit": "Reserve",
+      "nivo": "Description of current knowledge level",
+      "napomena": "What do you want to improve?"
+    },
+    "info": {
+      "delSucc": "Reservation successfully canceled.",
+      "delErr": "Error canceling reservation.",
+      "fetchErr": "Error loading reservations.",
+      "addSucc": "Reservation successfully confirmed.",
+      "addErr": "Error confirming reservation."
+    },
+    "for": "Reservation for",
+    "loading": "Loading...",
+    "nastavnik": "Teacher",
+    "nivo": "Available Levels",
+    "choose": "Choose a term to reserve the teacher ",
+    "date": "Reserved",
+    "termin": "Term",
+    "id": "reservation"
+  },
+  "filijala": {
+    "name": "Name",
+    "city": "City",
+    "address": "Address",
+    "phone": "Phone",
+    "info": {
+      "fetchErrFil": "Error loading branches.",
+      "addSucc": "Branch successfully added.",
+      "addErr": "An error occurred. Please check the fields and try again.",
+      "delSucc": "Branch successfully deleted.",
+      "delErr": "Error deleting branch.",
+      "updateSucc": "Branch successfully updated.",
+      "updateErr": "Error updating branch. Please check the field values."
+    },
+    "id": "filijala"
+  },
+  "nastavnik": {
+    "name": "Name",
+    "about": "About",
+    "sertifikati": "Certificates",
+    "picture": "Picture URL",
+    "pic": "Picture",
+    "price": "Class Price",
+    "nivoi": "Levels",
+    "filijala": "Branch",
+    "info": {
+      "fetchErrLvl": "Error loading levels.",
+      "fetchErrFil": "Error loading branches.",
+      "fetchErrNas": "Error loading teachers.",
+      "addSucc": "Teacher successfully added.",
+      "addErr": "Error adding teacher. Please check the field values.",
+      "delSucc": "Teacher successfully deleted.",
+      "delErr": "Error deleting teacher.",
+      "updateSucc": "Teacher successfully updated.",
+      "updateErr": "Error updating teacher. Please check the field values."
+    },
+    "id": "nastavnik"
+  },
+  "nivo": {
+    "ime": "Name",
+    "info": {
+      "addSucc": "Level successfully added.",
+      "addErr": "Error adding level. Please check the field values.",
+      "fetchErr": "Error loading levels.",
+      "delSucc": "Level successfully deleted.",
+      "delErr": "Error deleting level.",
+      "updateSucc": "Level successfully updated.",
+      "updateErr": "Error updating level. Please check the field values."
+    },
+    "id": "nivo"
+  },
+  "termin": {
+    "info": {
+      "fetchErr": "Error loading teachers.",
+      "addSucc": "Term successfully added.",
+      "addErr": "Error adding term. Please check the field values.",
+      "delSucc": "Term successfully deleted.",
+      "delErr": "Error deleting term.",
+      "updateSucc": "Term successfully updated.",
+      "updateErr": "Error updating term. Please check the field values.",
+      "fetchErrTer": "Error loading terms."
+    },
+    "nastavnik": "Teacher",
+    "datum": "Date",
+    "repeat": "Number of repetitions in the coming days",
+    "id": "termin"
+  },
+  "user": {
+    "info": {
+      "addSucc": "User successfully added.",
+      "addErr": "Error adding user. Please check the field values.",
+      "delSucc": "User successfully deleted.",
+      "delErr": "Error deleting user.",
+      "updateSucc": "User successfully updated.",
+      "updateErr": "Error updating user. Please check the field values.",
+      "passMatchErr": "Passwords do not match",
+      "fetchErr": "Error loading branches.",
+      "fetchErrUser": "Error loading users."
+    },
+    "fName": "First Name",
+    "lName": "Last Name",
+    "name": "Full Name",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "username": "Username",
+    "filijala": "Branch",
+    "role": "Role",
+    "password": "Password",
+    "password2": "Repeat Password",
+    "id": "user"
+  },
+  "cas": {
+    "modalTitle": "Class Information",
+    "info": {
+      "fetchErr": "Error loading class.",
+      "delSucc": "Class successfully deleted.",
+      "delErr": "Error deleting class.",
+      "updateSucc": "Class successfully updated",
+      "updateErr": "Error updating class"
+    },
+    "user": "User",
+    "note": "Comment",
+    "status": "Status",
+    "vehicle": "Vehicle",
+    "id": "cas"
+  },
+  "language": {
+    "title": "Language",
+    "rs": "Serbian",
+    "rsId": "rs",
+    "eng": "English",
+    "engId": "eng"
+  },
+  "signin": {
+    "title": "Sign In",
+    "username": "Username",
+    "password": "Password"
+  },
+  "path": {
+    "root": "/",
+    "contact": {
+      "root": "/contact"
+    },
+    "home": {
+      "root": "/homepage"
+    },
+    "details": {
+      "root": "/details"
+    },
+    "reservation": {
+      "root": "/rezervacije"
+    },
+    "login": {
+      "root": "/login"
+    },
+    "list": {
+      "reservations": "/list-reservations",
+      "users": "/list-users",
+      "termin": "/list-termin",
+      "filijale": "/list-filijale",
+      "cas": "/list-casovi",
+      "nastavnici": "/list-nastavnici",
+      "nivoi": "/list-nivoi"
+    },
+    "add": {
+      "reservations": "/add-reservation",
+      "users": "/add-user",
+      "termin": "/add-termin",
+      "filijale": "/add-filijala",
+      "cas": "/add-cas",
+      "nastavnici": "/add-nastavnik",
+      "nivoi": "/add-nivo"
+    },
+    "params": {
+      "id": "/:id",
+      "terminId": "/:terminId"
+    },
+    "api": {
+      "baseURL": "http://localhost:8080/api/",
+      "reservations": "rezervacije",
+      "rezNew": "/new",
+      "filijale": "filijale",
+      "nastavnici": "nastavnici",
+      "nastavniciFilijale": "/f/",
+      "nivoi": "nivoi",
+      "termini": "termini",
+      "users": "users",
+      "casovi": "casovi",
+      "auth": {
+        "root": "auth/",
+        "signin": "signin",
+        "signup": "signup"
+      }
+    }
+  }
+}

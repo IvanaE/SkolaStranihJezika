@@ -1,0 +1,68 @@
+{
+  "footer": {
+    "title": "Ivana Elez"
+  },
+  "navigation": {
+    "title": "Škola stranih jezika"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon: ",
+    "number": "Broj nastavnika: "
+  },
+  "home": {
+    "select": "Odaberite nivo",
+    "search": "Pretraga",
+    "error": {
+      "notFound": "Nije pronadjen ni jedna odgovarajuc nastavnik.",
+      "404": "404 - Page not found."
+    }
+  },
+  "reservation": {
+    "form": {
+      "processing": "Slanje...",
+      "success": "Uspešna rezervacija. Uskoro Vam stiže email sa potvrdom.",
+      "return": "Povratak na početnu stranicu",
+      "fullName": "Ime i prezime",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa",
+      "price": "Cena",
+      "submit": "Rezerviši",
+      "nivo": "Opis trenutnog nivoa znanja",
+      "napomena": "Sta želite da unapredite?"
+    },
+    "for": "Rezervacija za",
+    "loading": "Učitavanje...",
+    "nastavnik": "Nastavnik",
+    "nivo": "Dostupni nivoi",
+    "choose": "Odaberite termin za rezervaciju nastavnika "
+  },
+  "path": {
+    "root": "/",
+    "contact": {
+      "root": "/contact"
+    },
+    "home": {
+      "root": "/homepage"
+    },
+    "details": {
+      "root": "/details"
+    },
+    "reservation": {
+      "root": "/rezervacije"
+    },
+    "params": {
+      "id": "/:id",
+      "screeningId": "/:terminId"
+    },
+    "api": {
+      "baseURL": "http://localhost:8080/api/",
+      "reservations": "rezervacije",
+      "filijale": "filijale",
+      "nastavnici": "nastavnici",
+      "nivoi": "nivoi",
+      "termini": "termini"
+    }
+  }
+}

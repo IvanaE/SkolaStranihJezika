@@ -1,0 +1,108 @@
+@import "./colors.scss";
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+) !default;
+
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#root {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font: normal 1em 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  box-sizing: border-box;
+  background-color: $light;
+}
+
+ul.sidebar {
+  min-width: 280px;
+  min-height: 100vh;
+  background-color: $dark;
+}
+
+ul.sidebar h1 {
+  font-size: 1.8em;
+}
+
+ul.sidebar h3 {
+  font-size: 1.2em;
+  padding: 6px 20px;
+  display: inline-block;
+}
+
+ul.sidebar li a {
+  padding: 6px 20px;
+  display: inline-block;
+}
+
+#wrapper #content-wrapper {
+  background-color: #f8f9fc;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: $info;
+  text-decoration: none;
+}
+
+#login-wrapper {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 5%;
+}
+
+.out {
+  width: 100%;
+}
+
+.toTop {
+  z-index: 10;
+}
+
+.refresh {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%
+}
+
+.textarea {
+  width: 100%;
+}
